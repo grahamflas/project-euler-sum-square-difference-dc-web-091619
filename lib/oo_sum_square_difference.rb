@@ -5,11 +5,11 @@ class SumSquareDifference
   end
 
   def square_of_sum
-    @array.sum * @array.sum
+    @array.sum**2
   end
 
   def sum_of_squares
-    squares = @array.map { |num| num * num }
+    squares = @array.map { |num| num**2 }
     sum_of_squares = squares.sum
   end
 
